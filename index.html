@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack tutorial</title>
+    <link rel="stylesheet" href="./dist/bootstrap-scss.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5 class="card-title">Webpack in server side web application scenarios</h5>
+            </div>
+            <div class="card-body">
+                <p id="para">Click the 'Greet' button.</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" onclick="tutApp.Greeter.greet('Hey there! Library variable is working. :-)')">Greet</button>
+                <button class="btn btn-light" onclick="areaOne.AreaOne.sayHelloFromArea1('Area 1 library is also working. :-)')">Area 1</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./dist/jq.bundle.js"></script>
+    <script src="./dist/runtime-jq.bundle.js"></script>
+    <!-- <script src="./dist/runtime-bootstrapScss.bundle.js"></script> -->
+    <!-- <script src="./dist/bootstrap-scss.bundle.js"></script> -->
+    <script src="./dist/bootstrap.bundle.js"></script>
+    <script src="./dist/shared.bundle.js"></script>
+    <script src="./dist/app.bundle.js"></script>
+    <script src="./dist/areas/areaOne.bundle.js"></script>
+</body>
+</html>
